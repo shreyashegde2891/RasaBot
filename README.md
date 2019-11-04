@@ -28,3 +28,7 @@ In action server (actions.py), make the following changes in the below function
 	class SendEmail(Action):
 		msg['From']=""  # Enter Bots email address here
 		server.login(msg['From'], "password") # Enter the password
+		
+
+To Do:
+Slack Integration
