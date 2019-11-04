@@ -1,0 +1,124 @@
+slots:
+  location:
+    type: text
+  cuisine:
+    type: categorical
+    values:
+      - Chinese
+      - Mexican
+      - Italian
+      - American
+      - South Indian
+      - North Indian
+  budget:
+    type: text
+  email:
+    type: text
+  valid_location:
+    type: bool
+    initial_value: False
+  search_results:
+    type: unfeaturized
+  found_results:
+    type: bool
+  email_sent:
+    type: bool
+
+entities:
+- location
+- cuisine
+- budget
+- email
+- valid_location
+- search_results
+- found_results
+- email_sent
+
+intents:
+ - greet
+ - affirm
+ - deny
+ - goodbye
+ - thankyou
+ - search_restaurant
+ - send_details
+
+
+templates:
+  utter_greet:
+    - text: "Hey there! How may i help you?"
+    - text: "Hi, How can I help you!"
+    - text: "Hey, how is it going. How may I help you today?"
+  utter_goodbye:
+    - text: "goodbye"
+    - text: "see you later"
+    - text: "Bye-bye"
+    - text: "ciao"
+    - text: "have a good day"
+  utter_default:
+    - text: "I'm sorry, I did not understand that. Please try again."
+  utter_ask_cuisine: 
+    - text: "what kind of cuisine would you like?"
+      buttons:
+      - title: "Chinese"
+        payload: "Chinese"
+      - title: "Mexican"
+        payload: "Mexican"
+      - title: "Italian"
+        payload: "Italian"
+      - title: "American"
+        payload: "American"
+      - title: "South Indian"
+        payload: "South Indian"
+      - title: "North Indian"
+        payload: "North Indian"
+  utter_ask_location:
+    - text: "In what location?"
+    - text: "In which city?"
+  utter_ask_alternate_city:
+    - text: "Please specify some other location."
+    - text: "Would you like to search in another city?"
+  utter_ask_budget:
+    - text: "What price range are you looking at?"
+      buttons:
+      - title: "Lesser than Rs. 500"
+        payload: "<500"
+      - title: "Between Rs. 500 to 1000"
+        payload: "500-1000"
+      - title: "More than Rs. 1000"
+        payload: ">1000"
+  utter_ask_alternate_budget:
+    - text: "Try a different price range?"
+    - text: "Would you like to search for another price range?"
+  utter_query_ask_email:
+    - text: "Should I send you details of all the restaurants on email?"
+    - text: "Would you like to receive the restaurant list on email?"
+  #utter_ask_alternate_cuisine:
+  # - text: "I'm sorry, I don't understand that as a cuisine. Please try again."
+  utter_ask_email:
+    - text: "Ok. Please tell me your email address."
+    - text: "Great! What email address should I send it to?"
+  #utter_email_invalid:
+  #  - text: "I couldn't understand an email address from there. Do you want to tell me an email again?"
+  utter_thankyou:
+    - text: "Thanks. Have a great day ahead."
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_ask_location
+- utter_ask_cuisine
+- utter_ask_budget
+- utter_ask_alternate_city
+- utter_ask_alternate_budget
+#- utter_ask_alternate_cuisine
+- utter_query_ask_email
+- utter_ask_email
+#- utter_email_invalid
+- action_restaurant
+- action_email
+- action_validate_location
+- action_reset_slot
+- utter_thankyou
+

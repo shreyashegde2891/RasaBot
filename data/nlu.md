@@ -1,0 +1,1458 @@
+## intent:affirm
+- yes
+- yep
+- yeah
+- indeed
+- that's right
+- ok
+- great
+- right, thank you
+- correct
+- sounds good
+
+## intent:deny
+- no
+- no, thanks
+- nah
+- nope
+- let's not
+- leave it
+
+## intent:goodbye
+- goodbye
+- bye
+
+## intent:greet
+- hey
+- hola
+- howdy
+- hey there
+- good morning
+- good evening
+- Hello
+- hi
+- Hola
+- Hi There
+
+## intent:search_restaurant
+- Find me [italian](cuisine:Italian) restaurants in [delhi](location)
+- can you suggest some good [mexican](cuisine:Mexican) restaurants in [Jaipur](location)
+- I'm looking for a place to eat lunch
+- Help me locate [South Indian](cuisine) restaurant
+- I'm hungry. Looking for good restaurants
+- [Bangalore](location)
+- In [Delhi](location)
+- in [Jaipur](location) near statue circle
+- I want [Mexican](cuisine)
+- [Italian](cuisine) would be good
+- I love [Mexican](cuisine) food
+- I am craving [chinese](cuisine:Chinese). I wonder if there are any good chinese restaurants in [mumbai](location:Mumbai)?
+- Are there any [expensive](budget:>1000) [american](cuisine:American)restaurants in [Hyderabad](location)?
+- I’m hungry. Looking out for some good restaurants
+- I’ll prefer [north indian](cuisine:North Indian)
+- Show me some in [Allahabad](location)
+- [<500](budget)
+- [>1000](budget)
+- [500-1000](budget) range
+- [More than 1000](budget:>1000)
+- [Lesser than Rs. 500](budget:<500)
+- [less than 500](budget:<500)
+- [1000+](budget:>1000)
+- [no limit](budget:>1000)
+- in range of [500 to 1000](budget:500-1000)
+- Help me find [low cost](budget:<500) place to eat in [Nagpur](location) 
+- Are there any [chinese](cuisine:Chinese) restaurants in [Warangal](location) in [mediumbudget](budget:500-1000)[medium](budget:500-1000) budget range?
+- Lookup restaurants in [500-1000](budget) range
+- Are there eating joints for [less than 500](budget:<500) in [Mumbai](location)?
+- I'm looking for an [expensive](budget:>1000) [italian](cuisine:Italian) restaurant in [Bengaluru](location:Bangalore)
+- Do you have [cheap](budget:<500) restaurant suggestions
+- Search [expensive](budget:>1000) [mexican](cuisine) food places
+- [delhi](location:Delhi)
+- [jaipur](location:Jaipur)
+- [bhopal](location:Bhopal)
+- [chinese](cuisine:Chinese), please
+- [American](cuisine)
+- [Mexican](cuisine)
+- [South Indian](cuisine) will be great
+- find me some [budget](budget:<500) [chinese](cuisine:Chinese) restaurant nearby
+- [bengaluru](location:Bangalore)
+- [Pune](location)
+- [Raipur](location)
+- [Kolkata](location)
+- [Bokaro Steel City](location)
+- [Bokaro](location:Bokaro Steel City)
+- [Hyderabad](location)
+- [Adalaj](location)
+- [Gandhinagar](location)
+- [Haridwar](location)
+- [Kamarhati](location)
+- [Kumbakonam](location)
+- [Belgaum](location)
+- [Rourkela](location)
+- [Tiruchirappalli](location)
+- [Jamnagar](location)
+- [Vellore](location)
+- Help me find a place to eat in [Siliguri](location)
+- Find best food stores from [Siliguri](location)
+- Looking for restaurants from [Aligarh](location)
+- Are there good [italian](cuisine) places in [bokaro](location:Bokaro Steel City)
+- looking for [chinese](cuisine) restaurants in [chandigarh](location)
+- Searching for good [north indian](cuisine) restaurants 
+- [cheap](budget:<500)
+- [inexpensive](budget:<500)
+- [moderate](budget:500-1000)
+- [mid range](budget:500-1000)
+- [top](budget:>1000)
+- [high quality](budget:>1000)
+- please show me some good [chinese restaurants](cuisine:Chinese) in [madras](location:Chennai)in the [range of 500-1000](budget:500-1000)
+- please show me some good [south indian restaurants](cuisine:South Indian) in [chennai](location:Chennai)in the [range of >1000](budget:>1000)
+- Do you know good restaurants for lunch
+- Are there any good places for dinner
+- search some great restaurants for breakfast
+- help me find [low cost](budget:<500) restaurants serving [mexican](cuisine:Mexican) food
+- let's search for some [mid range](budget:500-1000) restaurants
+- I want to find some [classy](budget:>1000) [high quality](budget:>1000)restaurants
+- hey, help me find [cheap](budget:<500) restaurants in [alwar](location:Alwar)
+- Ok, how about [madurai](location:Madurai) then
+- how about [Noida](location) then?
+- Do you operate in [kochi](location:Kochi) ?
+
+## intent:send_details
+- yes. Please send it to [nail.kapil13@gmail.com](email)
+- [shreyash.hegde91@gmail.com](email)
+- Sure, You can email me at [someone_text@test.com](email)
+
+## intent:thankyou
+- Thank You.
+- ThankYou
+- Thanks
+- Thanks for helping.
+- Appreciate the work.
+- Appreciate the efforts.
+
+## synonym:500-1000
+- medium budget
+- moderate
+- medium cost
+- mid range
+- medium
+- middle
+- mid
+
+## synonym:<500
+- cheap
+- inexpensive
+- low cost
+- budget
+- low
+
+## synonym:>1000
+- high quality
+- expensive
+- costly
+- top
+- five star
+- high
+
+## synonym:Bangalore
+- Bengaluru
+- bengaluru
+- bangalore
+
+## synonym:Chennai
+- chennai
+- madras
+- Madras
+- chenai
+- chenaai
+- madraas
+
+## synonym:Delhi
+- delhi
+- dilli
+- New Delhi
+- new delhi
+- newdelhi
+- new-delhi
+
+## synonym:Kolkata
+- kolkata
+- kolkataa
+- Calcutta
+- Calcuta
+- calcuta
+
+## synonym:Mumbai
+- mumbai
+- bombay
+- bombai
+- mumbaai
+- mumbaye
+
+## synonym:chinese
+- Chinese
+- Chines
+- chines
+
+## regex:email
+- [a-zA-Z0-9+]+@[a-zA-Z0-9+]+\.[^\s]+
+
+## lookup:location
+- Bangalore
+- Chennai
+- Delhi
+- Hyderabad
+- Kolkata
+- Mumbai
+- Agra
+- Ajmer
+- Aligarh
+- Amravati
+- Amritsar
+- Asansol
+- Aurangabad
+- Ahmedabad
+- Allahabad
+- Bareilly
+- Belgaum
+- Bhavnagar
+- Bhiwandi
+- Bhopal
+- Bhubaneswar
+- Bikaner
+- Bokaro Steel City
+- Chandigarh
+- Coimbatore
+- nagpur
+- Cuttack
+- Dehradun
+- Dhanbad
+- Durg-Bhilai Nagar
+- Durgapur
+- Erode
+- Faridabad
+- Firozabad
+- Ghaziabad
+- Goa
+- Gorakhpur
+- Gulbarga
+- Guntur
+- Gurgaon
+- Guwahati
+- Gwalior
+- Hubli-Dharwad
+- Indore
+- Jabalpur
+- Jaipur
+- Jalandhar
+- Jammu
+- Jamnagar
+- Jamshedpur
+- Jhansi
+- Jodhpur
+- Kannur
+- Kanpur
+- Kakinada
+- Kochi
+- Kottayam
+- Kolhapur
+- Kollam
+- Kota
+- Kozhikode
+- Kurnool
+- Lucknow
+- Ludhiana
+- Madurai
+- Malappuram
+- Mathura
+- Mangalore
+- Meerut
+- Moradabad
+- Mysore
+- Nanded
+- Nashik
+- Nellore
+- Noida
+- Palakkad
+- Patna
+- Pondicherry
+- Prayagraj
+- Pune
+- Raipur
+- Rajkot
+- Rajahmundry
+- Ranchi
+- Rourkela
+- Salem
+- Sangli
+- Siliguri
+- Solapur
+- Srinagar
+- Sultanpur
+- Surat
+- Thiruvananthapuram
+- Thrissur
+- Tiruchirappalli
+- Tirunelveli
+- Tiruppur
+- Tiruvannamalai
+- Ujjain
+- Bijapur
+- Vadodara
+- Varanasi
+- Vasai-Virar City
+- Vijayapura
+- Vijayawada
+- Visakhapatnam
+- Vellore
+- Warangal
+- Achhnera
+- Adalaj
+- Adoni
+- Adoor
+- Adra
+- Adyar
+- Afzalpur
+- Agartala
+- Ahmednagar
+- Aizawl
+- Akola
+- Akot
+- Alappuzha
+- Alipurduar
+- Alirajpur
+- Almora
+- Aluva
+- Alwar
+- Amalapuram
+- Amalner
+- Amaravathi
+- Amaravati
+- Ambala
+- Ambattur
+- Ambejogai
+- Ambernath
+- Amroha
+- Anakapalle
+- Anand
+- Anantapur
+- Angul
+- Anjangaon
+- Anjar
+- Ankleshwar
+- Arakkonam
+- Arambagh
+- Araria
+- Arrah
+- Arsikere
+- Aruppukkottai
+- Arvi
+- Arwal
+- Asarganj
+- Ashok Nagar
+- Athni
+- Attingal
+- Avadi
+- BIHAR
+- Badrinath
+- Bageshwar
+- Bagha Kusmar
+- Baharampur
+- Bahraich
+- Bajpur
+- Balaghat
+- Balangir
+- Bally
+- Banaganipalli
+- Bapatla
+- Baranagar
+- Barasat
+- Barauli
+- Barbigha
+- Barbil
+- Bardhaman
+- Bargarh
+- Barkot
+- Barpeta
+- Bathinda
+- Begusarai
+- Bellampalle
+- Bellary
+- Belonia
+- Berhampur
+- Bettiah
+- Bhabua
+- Bhadrachalam
+- Bhagalpur
+- Bhainsa
+- Bhaiseena
+- Bhalswa Jahangir Pur
+- Bharatpur
+- Bhatapara
+- Bhatpara
+- Bhawanipatna
+- Bheemunipatnam
+- Bhilai
+- Bhilwara
+- Bhimavaram
+- Bhimtal
+- Bhind
+- Bhiwani
+- Bhongir
+- Bhowali
+- Bhusawal
+- Bhusawar
+- Bidar
+- Bidhan Nagar
+- Bihar Sharif
+- Bilaspur
+- Bobbili
+- Bodhan
+- Bokaro
+- Bongaigaon City
+- Bulandshahr
+- Burhanpur
+- Buxar
+- Byasanagar
+- Chaibasa
+- Chalakudy
+- Chamba
+- Chamoli Gopeshwar
+- Champawat
+- Chandpara
+- Chandrapur
+- Changanassery
+- Chapra
+- Charkhi Dadri
+- Chatra
+- Chengannur
+- Cherthala
+- Chhapra
+- Chidambaram
+- Chirala
+- Chirkunda
+- Chirmiri
+- Chittoor
+- Chittur- Thathamangalam
+- Cooch Behar
+- Dalli- Rajhara
+- Danapur
+- Darbhanga
+- Davanagere
+- Degana
+- Dehri
+- Deoghar
+- Devprayag
+- Dewas
+- Dhamtari
+- Dharchula
+- Dharmanagar
+- Dharmavaram
+- Dhenkanal
+- Dhone
+- Dhoraji
+- Dhubri
+- Dhule
+- Dhuri
+- Didihat
+- Dindigul
+- Dineshpur
+- Diphu
+- Dogadda
+- Doiwala
+- Dumka
+- Dumraon
+- Durg
+- Dwarahat
+- Ellenabad
+- Eluru
+- English Bazar
+- Etawah
+- EtawahMumbai
+- Faizabad
+- Faridkot
+- Farooqnagar
+- Farrukhabad
+- Fatehabad
+- Fatehpur
+- Fazilka
+- Firozpur Cantt.
+- Forbesganj
+- Gadarpur
+- Gadwal
+- Gandhidham
+- Gandhinagar
+- Gangarampur
+- Gangotri
+- Gangtok
+- Gavaravaram
+- Gaya
+- Goalpara
+- Gobichettipalayam
+- Gobindgarh
+- Gochar
+- Gohana
+- Gokak
+- Golaghat
+- Gooty
+- Gopalganj
+- Gopalpur
+- Gudivada
+- Gudur
+- Gumia
+- Guna
+- Guntakal
+- Gunupur
+- Gurdaspur
+- Guruvayoor
+- Hajipur
+- Haldia
+- Hansi
+- Hapur
+- Haridwar
+- Herbertpur
+- Hindupur
+- Hospet
+- Howrah
+- Hubballi- Dharwad
+- Hugli and Chinsurah
+- Ichalkaranji
+- Imphal
+- Itarsi
+- Jaggaiahpet
+- Jagraon
+- Jagtial
+- Jalandhar Cantt.
+- Jalgaon
+- Jalna
+- Jamalpur
+- Jammalamadugu
+- Jamui
+- Jangaon
+- Jaspur
+- Jatani
+- Jaunpur
+- Jehanabad
+- Jhabrera
+- Jhargram
+- Jharsuguda
+- Jhumri Tilaiya
+- Jorhat
+- Joshimath
+- Junagadh
+- Kadapa
+- Kadi
+- Kadiri
+- Kagaznagar
+- Kailasahar
+- Kaladhungi
+- Kalimpong
+- Kallakurichi
+- Kalpi
+- Kalyan- Dombivali
+- Kamareddy
+- Kamarhati
+- Kandukur
+- Kanhangad
+- Kanigiri
+- Kapadvanj
+- Karaikal
+- Karaikudi
+- Karawal Nagar
+- Karimganj
+- Karimnagar
+- Karjat
+- Karnal
+- Karnaprayag
+- Karur
+- Kasaragod
+- Kathua
+- Katihar
+- Kavali
+- Kayamkulam
+- Kedarnath
+- Kela Khera
+- Kendrapara
+- Kendujhar
+- Keshod
+- Khambhat
+- Khammam
+- Khanda
+- Khandwa
+- Kharagpur
+- Kharar
+- Khatima
+- Khodargama
+- Khowai
+- Kichha
+- Kirari Suleman Nagar
+- Kirtinagar
+- Kishanganj
+- Kodungallur
+- Kohima
+- Koratla
+- Korba
+- Kot Kapura
+- Kotdwar
+- Kothagudem
+- Kovvur
+- Koyilandy
+- Kulti
+- Kumarganj
+- Kumbakonam
+- Kunnamkulam
+- Kyathampalle
+- Lachhmangarh
+- Ladnu
+- Ladwa
+- Lahar
+- Laharpur
+- Lakheri
+- Lakhisarai
+- Laksar
+- Lakshmeshwar
+- Lal Gopalganj Nindaura
+- Lalganj
+- Lalgudi
+- Lalkuan
+- Lalsot
+- Landhaura
+- Lanka
+- Lar
+- Lathi
+- Latur
+- Lilong
+- Limbdi
+- Lingsugur
+- Loha
+- Lohaghat
+- Lohardaga
+- Lonar
+- Lonavla
+- Longowal
+- Loni
+- Losal
+- Lumding
+- Lunawada
+- Lunglei
+- MUZAFFARPUR
+- Macherla
+- Machilipatnam
+- Madanapalle
+- Maddur
+- Madhepura
+- Madhubani
+- Madhugiri
+- Madhupur
+- Madhyamgram
+- Madikeri
+- Magadi
+- Mahaboobnagar
+- Mahad
+- Mahalingapura
+- Maharajganj
+- Maharajpur
+- Mahasamund
+- Mahe
+- Mahemdabad
+- Mahendragarh
+- Mahesana
+- Maheshtala
+- Mahnar Bazar
+- Mahua Dabra Haripura
+- Mahua Kheraganj
+- Maihar
+- Mainaguri
+- Makhdumpur
+- Makrana
+- Malaj Khand
+- Malavalli
+- Malda
+- Malegaon
+- Malkangiri
+- Malkapur
+- Malout
+- Malpura
+- Malur
+- Manachanallur
+- Manasa
+- Manavadar
+- Manawar
+- Mandalgarh
+- Mandamarri
+- Mandapeta
+- Mandawa
+- Mandi Dabwali
+- Mandideep
+- Mandla
+- Mandvi
+- Manendragarh
+- Maner Sharif
+- Mangaldoi
+- Mangalvedhe
+- Manglaur
+- Mango
+- Mangrol
+- Mangrulpir
+- Manihari
+- Manjlegaon
+- Mankachar
+- Manmad
+- Mansa
+- Manuguru
+- Manvi
+- Manwath
+- Mapusa
+- Margao
+- Margherita
+- Marhaura
+- Mariani
+- Marigaon
+- Markapur
+- Masaurhi
+- Mathabhanga
+- Mattannur
+- Mau
+- Mauganj
+- Mavelikkara
+- Mavoor
+- Mayang Imphal
+- Medak
+- Medininagar
+- Medinipur
+- Mehkar
+- Memari
+- Merta City
+- Mhaswad
+- Mhow Cantonment
+- Mhowgaon
+- Mihijam
+- Mira- Bhayandar
+- Mirganj
+- Miryalaguda
+- Mirzapur
+- Modasa
+- Mokameh
+- Mokokchung
+- Monoharpur
+- Morbi
+- Morena
+- Morinda
+- India
+- Morshi
+- Motihari
+- Motipur
+- Mount Abu
+- Mudabidri
+- Mudalagi
+- Muddebihal
+- Mudhol
+- Mukerian
+- Mukhed
+- Muktsar
+- Mul
+- Mulbagal
+- Multai
+- Mundargi
+- Mundi
+- Mungeli
+- Munger
+- Muni Ki Reti
+- Murliganj
+- Murshidabad
+- Murtijapur
+- Murwara
+- Musabani
+- Mussoorie
+- Muvattupuzha
+- Muzaffarnagar
+- Muzaffarpur
+- Nabarangapur
+- Nabha
+- Nadbai
+- Nadiad
+- Nagar
+- Nagari
+- Nagarkurnool
+- Nagercoil
+- Nagina
+- Nagla
+- Nagpur
+- Nahan
+- Naharlagun
+- Naidupet
+- Naihati
+- Naila Janjgir
+- Nainital
+- Nainpur
+- Najibabad
+- Nakodar
+- Nakur
+- Nalbari
+- Namagiripettai
+- Namakkal
+- Nandaprayag
+- Nandgaon
+- Nandivaram- Guduvancheri
+- Nandura
+- Nandyal
+- Nangal
+- Nangloi Jat
+- Nanjangud
+- Nanjikottai
+- Nanpara
+- Narasapuram
+- Narasaraopet
+- Naraura
+- Narayanpet
+- Narendranagar
+- Nargund
+- Narkatiaganj
+- Narkhed
+- Narnaul
+- Narsinghgarh
+- Narsipatnam
+- Narwana
+- Nasirabad
+- Natham
+- Nathdwara
+- Naugachhia
+- Naugawan Sadat
+- Naura
+- Nautanwa
+- Navalgund
+- Navi Mumbai
+- Navi Mumbai Panvel Raigad
+- Nawabganj
+- Nawada
+- Nawanshahr
+- Nawapur
+- Nedumangad
+- Nedumbassery
+- Neem- Ka- Thana
+- Nehtaur
+- Nelamangala
+- Nellikuppam
+- Nepanagar
+- New Delhi
+- Neyyattinkara
+- Nidadavole
+- Nilambur
+- Nilanga
+- Nimbahera
+- Nirmal
+- Niwai
+- Niwari
+- Nizamabad
+- Nohar
+- Nokha
+- Nongstoin
+- Noorpur
+- North Dumdum
+- North Lakhimpur
+- Nowgong
+- Nowrozabad
+- Nuzvid
+- Obra
+- Oddanchatram
+- Ongole
+- Orai
+- Ottappalam
+- Owk
+- Ozar
+- Ozhukarai
+- P.N.Patti
+- Pachora
+- Pachore
+- Pacode
+- Padmanabhapuram
+- Padra
+- Padrauna
+- Paithan
+- Pakaur
+- Palai
+- Palampur
+- Palani
+- Palasa Kasibugga
+- Palghar
+- Pali
+- Palia Kalan
+- Palitana
+- Palladam
+- Pallapatti
+- Pallavaram
+- Pallikonda
+- Palwancha
+- Panagar
+- Panagudi
+- Panaji
+- Panamattom
+- Panchkula
+- Panchla
+- Pandharkaoda
+- Pandharpur
+- Pandhurna
+- Pandua
+- Panihati
+- Panipat
+- Panna
+- Panniyannur
+- Panruti
+- Panvel
+- Pappinisseri
+- Paradip
+- Paramakudi
+- Parangipettai
+- Parasi
+- Paravoor
+- Parbhani
+- Pardi
+- Parlakhemundi
+- Parli
+- Partur
+- Parvathipuram
+- Pasan
+- Paschim Punropara
+- Pasighat
+- Pathanamthitta
+- Pathardi
+- Pathri
+- Patiala
+- Patratu
+- Pattamundai
+- Patti
+- Pattran
+- Pattukkottai
+- Patur
+- Pauni
+- Pauri
+- Pavagada
+- Pedana
+- Peddapuram
+- Pehowa
+- Pen
+- Perambalur
+- Peravurani
+- Peringathur
+- Perinthalmanna
+- Periyakulam
+- Periyasemur
+- Pernampattu
+- Perumbavoor
+- Petlad
+- Phagwara
+- Phalodi
+- Phaltan
+- Phillaur
+- Phulabani
+- Phulera
+- Phulpur
+- Pihani
+- Pilani
+- Pilibanga
+- Pilkhuwa
+- Pimpri- Chinchwad
+- Pindwara
+- Pipar City
+- Piriyapatna
+- Piro
+- Pithampur
+- Pithapuram
+- Pithoragarh
+- Polur
+- Ponnani
+- Ponneri
+- Ponnur
+- Poonch
+- Porsa
+- Port Blair
+- Powayan
+- Prantij
+- Pratapgarh
+- Prithvipur
+- Proddatur
+- Pudupattinam
+- Pukhrayan
+- Pulgaon
+- Puliyankudi
+- Punalur
+- Punganur
+- Punjaipugalur
+- Puranpur
+- Purna
+- Purnia
+- Purquazi
+- Purwa
+- Pusad
+- Puthuppally
+- Puttur
+- Qadian
+- Rabkavi Banhatti
+- Radhanpur
+- Rae Bareli
+- Rafiganj
+- Raghogarh- Vijaypur
+- Raghunathpur
+- Rahatgarh
+- Rahuri
+- Raichur
+- Raiganj
+- Raikot
+- Rairangpur
+- Raisen
+- Raisinghnagar
+- Rajagangapur
+- Rajakhera
+- Rajaldesar
+- Rajam
+- Rajauri
+- Rajesultanpur
+- Rajgarh
+- Rajgir
+- Rajpipla
+- Rajpur Sonarpur
+- Rajpura
+- Rajsamand
+- Rajula
+- Rajura
+- Ramachandrapuram
+- Ramagundam
+- Ramanagaram
+- Ramanathapuram
+- Ramdurg
+- Rameshwaram
+- Ramganj Mandi
+- Ramnagar
+- Ramngarh
+- Rampur
+- Rampur Maniharan
+- Rampura Phul
+- Rampurhat
+- Ramtek
+- Ranavav
+- Rangiya
+- Rania
+- Ranibennur
+- Rapar
+- Rasipuram
+- Rasra
+- Ratangarh
+- Rath
+- Ratia
+- Ratlam
+- Ratnagiri
+- Rau
+- Raurkela Industrial Township
+- Raver
+- Rawatbhata
+- Rawatsar
+- Raxaul Bazar
+- Rayachoti
+- Rayadurg
+- Rayagada
+- Reengus
+- Rehli
+- Renigunta
+- Renukoot
+- Reoti
+- Repalle
+- Revelganj
+- Rewa
+- Rishikesh
+- Risod
+- Robertsganj
+- Rohtak
+- Ron
+- Roorkee
+- Rosera
+- Rudauli
+- Rudraprayag
+- Rudrapur
+- Rupnagar
+- Sabalgarh
+- Sadabad
+- Sadasivpet
+- Sadri
+- Sadulshahar
+- Safidon
+- Safipur
+- Sagar
+- Sagara
+- Sagwara
+- Saharanpur
+- Saharsa
+- Sahaspur
+- Sahaswan
+- Sahawar
+- Sahibganj
+- Sahjanwa
+- Saidpur
+- Saiha
+- Sailu
+- Sainthia
+- Sakaleshapura
+- Sakti
+- Salaya
+- Salur
+- Samalkha
+- Samalkot
+- Samana
+- Samastipur
+- Sambalpur
+- Sambhal
+- Sambhar
+- Samdhan
+- Samthar
+- Sanand
+- Sanawad
+- Sanchore
+- Sandi
+- Sandila
+- Sanduru
+- Sangamner
+- Sangareddy
+- Sangaria
+- Sangli- Miraj & Kupwad
+- Sangole
+- Sangrur
+- Sanivarapupeta
+- Sankarankovil
+- Sankari
+- Sankeshwara
+- Sarangpur
+- Sardarshahar
+- Sardhana
+- Sarni
+- Sarsawa
+- Sarsod
+- Sasaram
+- Sasvad
+- Satana
+- Satara
+- Sathyamangalam
+- Satna
+- Satrampadu
+- Sattenapalle
+- Sattur
+- Saunda
+- Saundatti- Yellamma
+- Sausar
+- Savanur
+- Savarkundla
+- Savner
+- Sawantwadi
+- Secunderabad
+- Sedam
+- Sehore
+- Sendhwa
+- Seohara
+- Seoni
+- Seoni- Malwa
+- Serampore
+- Shahabad
+- Shahade
+- Shahbad
+- Shahdol
+- Shahganj
+- Shahjahanpur
+- Shahpur
+- Shahpura
+- Shajapur
+- Shaktigarh
+- Shamgarh
+- Shamli
+- Shamsabad
+- Farrukhabad
+- Shegaon
+- Sheikhpura
+- Shendurjana
+- Shenkottai
+- Sheoganj
+- Sheohar
+- Sheopur
+- Sherghati
+- Sherkot
+- Shiggaon
+- Shikaripur
+- Shikarpur
+- Shikohabad
+- Shimla
+- Shirdi
+- Shirpur- Warwade
+- Shirur
+- Shishgarh
+- Shivamogga
+- Shivpuri
+- Sholavandan
+- Sholingur
+- Shoranur
+- Shrigonda
+- Shrirampur
+- Shrirangapattana
+- Shujalpur
+- Siana
+- Sibsagar
+- Siddipet
+- Sidhi
+- Sidhpur
+- Sidlaghatta
+- Sihor
+- Sihora
+- Sikanderpur
+- Sikandra Rao
+- Sikandrabad
+- Sikar
+- Silao
+- Silapathar
+- Sillod
+- Silvassa*
+- Simdega
+- Sindagi
+- Sindhagi
+- Sindhnur
+- Singrauli
+- Sinnar
+- Sira
+- Sircilla
+- Sirhind Fatehgarh Sahib
+- Sirkali
+- Sirohi
+- Sironj
+- Sirsa
+- Sirsaganj
+- Sirsi
+- Siruguppa
+- Sitamarhi
+- Sitarganj
+- Sivaganga
+- Sivagiri
+- Siwan
+- Sohagpur
+- Sohna
+- Sojat
+- Solan
+- Sonamukhi
+- Sonepur
+- Songadh
+- Sonipat
+- Sopore
+- Soro
+- Soron
+- South Dumdum
+- Soyagaon
+- Sri Ganganagar
+- Sri Madhopur
+- Srikakulam
+- Srikalahasti
+- Srinivaspur
+- Srirampore
+- Srisailam
+- Srivilliputhur
+- Suar
+- Sugauli
+- Sujangarh
+- Sujanpur
+- Sullurpeta
+- Sultan Pur Majra
+- Sultanganj
+- Sumerpur
+- Sunabeda
+- Sunam
+- Sundargarh
+- Sundarnagar
+- Supaul
+- Surandai
+- Surapura
+- Suratgarh
+- Surendranagar Dudhrej
+- Suri
+- Suriyampalayam
+- Suryapet
+- Tadepalligudem
+- Tadipatri
+- Takhatgarh
+- Taki
+- Talaja
+- Talcher
+- Talegaon
+- Talikota
+- Taliparamba
+- Talode
+- Talwara
+- Tamluk
+- Tanakpur
+- Tanda
+- Tandur
+- Tanuku
+- Tarakeswar
+- Tarana
+- Taranagar
+- Taraori
+- Tarbha
+- Tarikere
+- Tarn Taran
+- Tasgaon
+- Tehri
+- Tekkalakote
+- Tenali
+- Tenkasi
+- Tenu dam- cum- Kathhara
+- Terdal
+- Tezpur
+- Thakurdwara
+- Thammampatti
+- Thana Bhawan
+- Thane
+- Thangadh
+- Thanjavur
+- Tharad
+- Tharamangalam
+- Tharangambadi
+- Theni Allinagaram
+- Thirumangalam
+- Thirupuvanam
+- Thiruthuraipoondi
+- Thiruvalla
+- Thiruvallur
+- Thiruvarur
+- Thodupuzha
+- Thoothukudi
+- Thoubal
+- Thrippunithura
+- Thuraiyur
+- Tikamgarh
+- Tilda Newra
+- Tilhar
+- Tindivanam
+- Tinsukia
+- Tiptur
+- Tirora
+- Tiruchendur
+- Tiruchengode
+- Tiruchirapalli
+- Tirukalukundram
+- Tirukkoyilur
+- Tirupathur
+- Tirupati
+- Tirur
+- Tiruttani
+- Tiruvethipuram
+- Tiruvottiyur
+- Tiruvuru
+- Tirwaganj
+- Titlagarh
+- Tittakudi
+- Todabhim
+- Todaraisingh
+- Tohana
+- Tuensang
+- Tuljapur
+- Tulsipur
+- Tumkur
+- Tumsar
+- Tundla
+- Tuni
+- Tura
+- Uchgaon
+- Udaipur
+- Udaipurwati
+- Udhagamandalam
+- Udhampur
+- Udumalaipettai
+- Udupi
+- Ujhani
+- Ulhasnagar
+- Uluberia
+- Umarga
+- Umaria
+- Umarkhed
+- Umbergaon
+- Umred
+- Umreth
+- Una
+- Unjha
+- Unnamalaikadai
+- Unnao
+- Upleta
+- Uran
+- Uran Islampur
+- Uravakonda
+- Urmar Tanda
+- Usilampatti
+- Uthamapalayam
+- Uthiramerur
+- Utraula
+- Uttarakhand
+- Uttarkashi
+- Vadakkuvalliyur
+- Vadalur
+- Vadgaon Kasba
+- Vadipatti
+- Vadnagar
+- Vaijapur
+- Vaikom
+- Valparai
+- Vandavasi
+- Vaniyambadi
+- Vapi
+- Varandarappilly
+- Varkala
+- Vasai- Virar
+- Vatakara
+- Vedaranyam
+- Vellakoil
+- Venkatagiri
+- Vijainagar
+- Ajmer
+- Vijapur
+- Vijayanagaram
+- Vijaypur
+- Vikarabad
+- Vikasnagar
+- Vikramasingapuram
+- Viluppuram
+- Vinukonda
+- Viramgam
+- Virudhachalam
+- Virudhunagar
+- Vishakapatnam
+- Visnagar
+- Viswanatham
+- Vita
+- Vrindavan
+- Vyara
+- Wadgaon Road
+- Wadhwan
+- Wadi
+- Wai
+- Wanaparthy
+- Wani
+- Wankaner
+- Wara Seoni
+- Warhapur
+- Warisaliganj
+- Warora
+- Warud
+- Washim
+- Wokha
+- Yadgir
+- Yamunanagar
+- Yanam
+- Yawal
+- Yellandu
+- Yemmiganur
+- Yerraguntla
+- Yevla
+- Zaidpur
+- Zamania
+- Zira
+- Zirakpur
+- Zunheboto
+
+## lookup:cuisine
+- Mexican
+- Chinese
+- Italian
+- American
+- South Indian
+- North Indian

@@ -1,0 +1,23 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+#pipeline: pretrained_embeddings_spacy
+
+pipeline:
+  - name: "SpacyNLP"
+  - name: "SpacyTokenizer"
+  - name: "SpacyFeaturizer"
+  - name: "SklearnIntentClassifier"
+  - name: "CRFEntityExtractor"
+  - name: "EntitySynonymMapper"
+  #- name: DucklingHTTPExtractor
+  #  url: http://localhost:5055
+  #  dimensions:
+  #  - email
+  
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: MappingPolicy
