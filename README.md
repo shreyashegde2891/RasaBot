@@ -1,8 +1,7 @@
 # RasaBot
-Rasabot for food recommendation system using zomato api's using Rasa NLU Framework.
+Rasa bot an AI Assistants that is powered by the Rasa framework, is a NLU chatbot for food recommendation system. (Restuarant Searches via Zomato Api's)
 
-Installation :
-
+Rasa X Installation :
 pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
 
 Packages versions:
